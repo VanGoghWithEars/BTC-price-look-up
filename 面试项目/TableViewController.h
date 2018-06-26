@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  面试项目
 //
 //  Created by FanGuang on 2018/5/31.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property(nonatomic,strong)NSMutableArray* result;
-
+@interface TableViewController : UITableViewController
+@property(nonatomic,strong)NSArray* sortArr;
 @end
-
